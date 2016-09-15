@@ -1,0 +1,21 @@
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+void bad_incrementor(int x)
+{
+    x++;
+    std::cout << x << std::endl;
+}
+
+
+int main()
+{
+    int i=6;
+    bad_incrementor(i);
+    std::cout << i << std::endl;
+    return 0;
+}
+
+
